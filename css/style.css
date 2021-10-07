@@ -14,11 +14,9 @@ img{
 }
 .contenitore{
     width: 80%;
-    
     margin: auto;
     margin-top: 20px;
-    /* TEST */
-    
+    padding-bottom: 50px;  
 }
 /* Prodotti */
 .elenco-prodotti{
@@ -80,4 +78,14 @@ img{
     text-decoration: line-through;
     color: black;
     font-size: 14px;
+}
+.nota-1{
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    padding: 5px;
+    color: white;
+    background-color: #00875a;
+    font-weight: bolder;
+
 }
