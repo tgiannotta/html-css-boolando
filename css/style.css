@@ -8,55 +8,76 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+/* Diamo a tutte le immagini la massima grandezza del loro contenitore */
 img{
     width: 100%;
 }
 .contenitore{
     width: 80%;
-    margin: auto;
-    margin-top: 50px;
-}
-.pos-rel{
-    position: relative;
-}
-.pos-abs{
-    position: absolute;
-}
-.listino-prodotti{
     
-    width: 99%;    
-   
+    margin: auto;
+    margin-top: 20px;
+    /* TEST */
+    
 }
-.prodotto{
-    display: inline-block;
+/* Prodotti */
+.elenco-prodotti{
+    
+    width: 99%;
+    padding-top: 20px;
+
+}
+.immagine-prodotto{
     width: 32%;
+    display: inline-block;
+    position: relative;
+    padding-left: 20px;
+    
+
+}
+.dettagli{
+    width: 99%;
     
 }
 .icona-cuore{
+    display: inline-block;
+    position: absolute;
     right: 0;
-    top: 3%;
-    font-size: 35px;
-    padding: 15px;
+    top: 5%;
     background-color: white;
-    
+    padding: 15px;
+    font-size: 30px;
+
 }
 .sconto{
-    left: 0;
-    bottom: 3%;
-    padding:8px;
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    padding: 5px;
     background-color: #eb0037;
     color: white;
     font-weight: bolder;
+
 }
-.attributo{
-    left: 15%;
-    bottom: 3%;
-    padding: 8px;
-    background-color: #00875a;
+.nota{
+    position: absolute;
+    left: 16%;
+    bottom: 10%;
+    padding: 5px;
     color: white;
+    background-color: #00875a;
     font-weight: bolder;
 }
-
-
-   
-    
+.marca{
+    font-size: 16px;
+}
+.costo{
+    color: red;
+    font-weight: bolder;
+    font-size: 14px;
+}
+.cbarrato{
+    text-decoration: line-through;
+    color: black;
+    font-size: 14px;
+}
