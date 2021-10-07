@@ -1,0 +1,30 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* COMMON */
+body{
+    /* TEST */
+    background-color: aqua;
+}
+.contenitore{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    /* TEST */
+    background-color: blueviolet;
+}
+.listino-prodotti{
+    width: 80%;    
+    background-color: red;
+}
+.prodotto{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+}
+   
+    
